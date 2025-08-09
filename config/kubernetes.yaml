@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gtt-backend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: gtt-backend
+  template:
+    metadata:
+      labels:
+        app: gtt-backend
+    spec:
+      containers:
+      - name: backend
+        image: gtt-backend:latest
+        ports:
+        - containerPort: 3000
+        env:
+        - name: MONGO_URI
+          value: mongodb://mongo:27017/gtt
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gtt-frontend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: gtt-frontend
+  template:
+    metadata:
+      labels:
+        app: gtt-frontend
+    spec:
+      containers:
+      - name: frontend
+        image: gtt-frontend:latest
+        ports:
+        - containerPort: 3000

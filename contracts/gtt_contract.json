@@ -1,0 +1,36 @@
+{
+    "contractName": "GTTContract",
+    "abi": [
+        {
+            "name": "InitLedger",
+            "inputs": [],
+            "outputs": [],
+            "type": "function"
+        },
+        {
+            "name": "IssueToken",
+            "inputs": [
+                {"name": "id", "type": "string"},
+                {"name": "owner", "type": "string"},
+                {"name": "value", "type": "float64"}
+            ],
+            "outputs": [],
+            "type": "function"
+        },
+        {
+            "name": "TransferToken",
+            "inputs": [
+                {"name": "id", "type": "string"},
+                {"name": "newOwner", "type": "string"}
+            ],
+            "outputs": [],
+            "type": "function"
+        },
+        {
+            "name": "QueryToken",
+            "inputs": [{"name": "id", "type": "string"}],
+            "outputs": [{"name": "token", "type": "string"}],
+            "type": "function"
+        }
+    ]
+}

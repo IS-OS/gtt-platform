@@ -1,0 +1,10 @@
+name: gtt-network
+version: 1.0.0
+channels:
+  gttchannel:
+    peers:
+      peer0.un.org:
+        endorsingPeer: true
+        chaincodeQuery: true
+    orderers:
+      - orderer.un.org

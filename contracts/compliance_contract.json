@@ -1,0 +1,20 @@
+{
+    "contractName": "ComplianceContract",
+    "abi": [
+        {
+            "name": "CheckCompliance",
+            "inputs": [
+                {"name": "transactionId", "type": "string"},
+                {"name": "userId", "type": "string"}
+            ],
+            "outputs": [],
+            "type": "function"
+        },
+        {
+            "name": "QueryCompliance",
+            "inputs": [{"name": "transactionId", "type": "string"}],
+            "outputs": [{"name": "record", "type": "string"}],
+            "type": "function"
+        }
+    ]
+}
