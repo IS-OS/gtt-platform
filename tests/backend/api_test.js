@@ -18,4 +18,11 @@ describe('GTT API', () => {
         expect(res.statusCode).toEqual(200);
         expect(res.body.id).toBe('GTT003');
     });
+
+    it('should fetch public ledger transactions', async () => {
+        const res = await request(app)
+            .get('/api/ledger/transactions');
+        expect(res.statusCode).toEqual(200);
+        expect(Array.isArray(res.body)).toBe(true);
+    });
 });
