@@ -23,3 +23,7 @@
 ## Compliance API
 - **POST /api/compliance/verify**: Verify KYC/AML.
 - **GET /api/compliance/report/:txId**: Generate compliance report.
+
+## Ledger API (Public)
+- **GET /api/ledger/transactions**: Fetch all transactions.
+- **GET /api/ledger/search?txId=TX001&owner=UN_Treasury&fromDate=2025-01-01&toDate=2025-12-31**: Search transactions.
