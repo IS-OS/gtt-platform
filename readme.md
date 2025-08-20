@@ -191,7 +191,7 @@ The public ledger at `/ledger` provides real-time viewing and searching of all G
 - `GET /api/ledger/search?txId=TX001&owner=UN_Treasury&fromDate=2025-01-01&toDate=2025-12-31`: Search by criteria.
 
 ## UN Submission
-This platform is part of a submission to the UN Framework Convention on International Tax Cooperation (ola@un.org, financing@un.org). It aligns with:
+This platform is part of a submission to the UN Framework Convention on International Tax Cooperation. It aligns with:
 - ECOSOC Resolution 1996/31 for transparency.
 - SDGs 1, 8, 10, 17 via $91.4 trillion liquidity injection.
 - Compliance with IFRS 9, SEC, FCA, MAS via TaxBit integration.
@@ -202,4 +202,5 @@ See `docs/submission_guidelines.md` for details.
 Contributions are welcome via pull requests to the GitHub repository. Ensure compliance with ethical guidelines and regulatory standards.
 
 This submission does not represent the official positions or views of any government, organization, or institution, including the United Nations. It is intended to contribute to the ongoing negotiations, particularly the workstreams on taxation of cross-border services and prevention/resolution of tax disputes, by offering an innovative financial instrument aligned with the Sustainable Development Goals (SDGs).
+
 
