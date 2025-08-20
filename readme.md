@@ -1,7 +1,7 @@
 # Global Tax Token (GTT) Platform
 
 ## Overview
-The Global Tax Token (GTT) is a blockchain-based digital currency designed to offset global public debt ($102 trillion in 2024) and support all the Sustainable Development Goals (SDGs), particularly SDG 1 (No Poverty), SDG 8 (Decent Work and Economic Growth), SDG 10 (Reduced Inequalities), and SDG 17 (Partnerships for the Goals). Backed by global real estate ($654.4 trillion projected for 2025), Combined International Collateral Accounts (CICA), and UN Special Drawing Rights (SDRs), the GTT injects an estimated $91.4 trillion in liquidity into the international rules-based order without diminishing any stakeholder's value.
+The Global Tax Token (GTT) is a blockchain-based digital currency designed to offset global public debt ($102 trillion in 2024) and support all the Sustainable Development Goals (SDGs), particularly SDG 1 (No Poverty), SDG 8 (Decent Work and Economic Growth), SDG 10 (Reduced Inequalities), and SDG 17 (Partnerships for the Goals). Backed by global real estate ($654.4 trillion projected for 2025), Combined International Collateral Accounts (CICA), and UN Special Drawing Rights (SDRs), the GTT injects an estimated $91.4+ trillion in liquidity into the international rules-based order without diminishing any stakeholder's value.
 
 The platform uses:
 - **Hyperledger Fabric**: Permissioned blockchain for token issuance and compliance.
@@ -202,6 +202,7 @@ See `docs/submission_guidelines.md` for details.
 Contributions are welcome via pull requests to the GitHub repository. Ensure compliance with ethical guidelines and regulatory standards.
 
 This submission does not represent the official positions or views of any government, organization, or institution, including the United Nations. It is intended to contribute to the ongoing negotiations, particularly the workstreams on taxation of cross-border services and prevention/resolution of tax disputes, by offering an innovative financial instrument aligned with the Sustainable Development Goals (SDGs).
+
 
 
 
